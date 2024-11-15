@@ -1,0 +1,1246 @@
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Jost";
+        }
+/* START OF NAV BAR...................................................................................................................... */
+
+        .nav_bar {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0px;
+            left: 0px;
+            background-color: #dd3838;
+            padding: 0.5rem;
+            /* border: 3px solid orange; */
+            width: 100%;
+            z-index: 1;
+        }
+
+        /* .brand_name, .details, .btns {
+    flex: 1 1 25%; 
+    border: 2px solid blue;
+} */
+
+        .details {
+            /* flex: 1 1 40%; */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            /* background-color: blue; */
+
+
+            gap: 15px;
+            width: 40%;
+            /* background-color: rgb(0, 17, 255); */
+
+        }
+
+        .details div {
+            position: relative;
+        }
+
+        .details a:hover,
+        .details a.active {
+            color: rgb(0, 0, 0);
+        }
+
+        /* .details a.active::after,
+        .details a:hover::after {
+            content: "";
+            width: 50%;
+            height: 2px;
+            background-color: black;
+            position: absolute;
+            bottom: -4px;
+            left: 0px;
+        } */
+
+
+        /* .btns { */
+        /* flex: 1 1 25%; */
+        /* display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+            width: 25%; */
+        /* background-color: blue; */
+
+        /* background-color: brown; */
+        /* } */
+
+        .brand_name {
+            width: 20%;
+            color: #222831;
+            /* background-color: blue; */
+        }
+
+        /* .redirect {
+            width: 5%; */
+        /* background-color: blue; */
+        /* text-align: center;
+            display: none;
+        } */
+
+
+        a {
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+
+        }
+
+/* END OF NAV BAR...................................................................................................................... */
+
+
+        /* button {
+            font-family: inherit;
+            padding: 5px 23px;
+            border: none;
+        } */
+
+        /* .form_popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgb(73, 220, 240);
+            width: 100%;
+            max-width: 720px;
+            display: none;
+
+
+        } */
+
+        /* .form_popup .form_box {
+            display: flex;
+            padding: 12px;
+        }
+
+        .form_box .form_detail {
+            max-width: 330px;
+        }
+
+        .form_box {
+            width: 100%;
+        } */
+
+        /* .form_box .form_content {
+            width: 100%; */
+        /* background-color: blueviolet; */
+
+        /* } */
+
+        /* .input_group {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 14px;
+        } */
+
+        /* .input_group input {
+            padding: 10px;
+            width: 70%;
+        } */
+
+        /* .close_btn {
+            position: absolute;
+            top: 10px;
+            right: 10px; */
+        /* font-size: 40px; */
+        /* } */
+
+
+
+
+
+/* START OF BRAND CONTENT...................................................................................................................... */
+
+
+        .brand_content {
+            display: flex;
+            flex-wrap: wrap;
+            /* border: 2px solid rgb(255, 9, 251); */
+            width: 100%;
+            height: 100vh;
+            background-image: url(/imagesforwebsite/fc.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+
+   
+
+        .left {
+            width: 40%;
+            
+        }
+
+        .left div {
+            margin-left: 4rem;
+            margin-top: 10rem;
+
+        }
+
+        .right {
+            width: 60%;
+            /* border: 2px solid green; */
+        }
+
+        /* .right img {
+            display: block;
+            width: 100%;
+            height: auto;
+        } */
+
+        /* .shop_btn {
+            padding: 14px 80px 14px 61px;
+            color: rgb(8, 129, 120);
+            font-size: 20px;
+            font-weight: 700; */
+        /* background-color: lightskyblue; */
+        /* border-radius: 6px;
+            background-color: transparent;
+            background-image: url(/imagesforwebsite/button.png);
+        } */
+
+        /* h2 {
+            color: rgb(8, 129, 120);
+        } */
+
+/* END OF BRAND CONTENT...................................................................................................................... */
+
+
+/* START OF OUR PRODUCTS...................................................................................................................... */
+
+
+
+        .current {
+            text-align: center;
+            margin-top: 4rem;
+
+        }
+
+        font {
+            font-size: 48px;
+            font-weight: 800;
+        }
+
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            justify-content: space-around;
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+        }
+
+
+        .pro {
+            width: 60%;
+            /* border: 4px solid blue; */
+            padding-left: 30px;
+            padding-top: 12px;
+            /* background-color: orange; */
+        }
+
+        .pro ul {
+            list-style-type: none;
+            padding-left: 20px;
+            /* margin-top: 40px; */
+            font-size: 20px;
+            font-weight: 800;
+        }
+
+        .pro ul h3 {
+            border: 1px solid cadetblue;
+            width: 15%;
+            text-align: center;
+        }
+
+        .pro ul h3,
+        p,
+        button {
+            margin-top: 2rem;
+        }
+
+        .pro ul p {
+            font-weight: 350;
+        }
+
+        .pro ul button {
+            background-color: #063435;
+            color: white;
+        }
+
+        .product_img {
+            width: 40%;
+            padding-top: 1rem;
+            /* background-color: blue; */
+        }
+
+
+
+        .products .product_img img {
+            width: 60%;
+            border-radius: 1rem;
+            margin-left: 20px;
+            box-shadow: 0 10px 20px rgba(8, 129, 120, 0.6);
+            transition: transform 1s ease-in-out, box-shadow 0.4s ease;
+            display: block;
+        }
+
+        .product_img img:hover {
+            box-shadow: 0 10px 20px rgba(8, 129, 120, 0.9);
+            transform: scale(1.1);
+        }
+
+        .organic button {
+            font: inherit;
+            padding: 6px 25px;
+        }
+
+
+
+
+
+        .new {
+            font-family: "jost";
+            font-size: 1.5rem;
+            padding-top: 20px;
+            font-weight: 600;
+        }
+
+        .more_info {
+            margin-top: 15px;
+            margin-left: 50px;
+        }
+
+/* END OF OUR PRODUCTS...................................................................................................................... */
+
+
+
+
+
+
+/* START OF UPCOMING PRODUCTS...................................................................................................................... */
+
+
+
+        .upcoming_product_imgs {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            text-align: center;
+            width: 100%;
+            padding: 20px;
+
+
+        }
+
+        .upc_img {
+            background-color: #ffffff;
+        }
+
+        .upc_img h4 {
+            color: rgb(0, 0, 0);
+
+        }
+
+
+
+        .upcoming_product_imgs img {
+
+            /* box-shadow: 0 10px 20px rgba(50, 230, 206, 0.6); */
+            margin-top: 20px;
+            padding: 12px;
+
+        }
+
+
+
+
+        .upc {
+            text-align: center;
+        }
+
+
+
+/* END OF UPCOMING PRODUCTS...................................................................................................................... */
+
+/* START OF SUGGESTION PRODUCTS...................................................................................................................... */
+
+
+
+
+        .suggestion {
+            width: 100%;
+            position: relative;
+            background-color: #ffffff;
+        }
+
+        .suggestion .asking {
+            text-align: center;
+            /* background-color: red; */
+        }
+
+        .suggestion .getting_age input,
+        label,
+        .giving {
+            display: block;
+            width: 15%;
+            margin-left: 45%;
+            text-align: center;
+            background-color: green;
+            padding: 13px;
+            border: none;
+            background-color: #063435;
+            color: white;
+            font-weight: 800;
+            margin-top: 1rem;
+
+        }
+
+        .giving button {
+            font: inherit;
+            padding: 8px 25px;
+        }
+
+        /* .suggestion .getting_age label{
+    width: 15%;
+    margin-left: 45%;
+}
+
+*/
+        .suggestion .giving {
+            background-color: white;
+        }
+
+        .suggestion .giving button {
+            background-color: black;
+            color: white;
+            font-weight: 700;
+        }
+
+        .providing {
+            width: 100%;
+            position: absolute;
+            top: 7000px;
+            display: none;
+        }
+
+        .age_based {
+            width: 60%;
+            margin-left: 20%;
+            background-color: rgb(0, 0, 0);
+            color: white;
+        }
+
+        .age_based .factors {
+            width: 100%;
+            text-align: center;
+        }
+
+        .cxl {
+            display: block;
+            width: 100%;
+            height: 100px;
+            padding: 12px 22px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 900;
+        }
+        .cxl p{
+            text-align: end;
+
+        }
+        .blur {
+    filter: blur(5px);
+    transition: filter 0.3s ease-in-out;
+}
+
+       
+
+       
+
+        .factor1 h2,
+        .factor1 .cst {
+            text-align: center;
+            margin: 0;
+        }
+
+
+/* END OF SUGGESTION PRODUCTS...................................................................................................................... */
+
+
+
+/* START OF FAQ ...................................................................................................................... */
+
+
+        .faq {
+            width: 80%;
+            margin-left: 10%;
+        }
+
+        .qanda {
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+            width: 100%;
+        }
+
+        .q,
+        .a {
+            border: 2px solid black;
+        }
+
+        .q {
+            background-color: #063435;
+            color: white;
+            display: flex;
+            padding: 8px;
+
+
+        }
+
+        .q p {
+            font-size: 1.5rem;
+            color: rgb(255, 255, 255);
+            font-weight: 900;
+
+        }
+
+        .ws,
+        .ps {
+            width: 50%;
+        }
+
+        .ps {
+            text-align: end;
+        }
+
+        .a {
+            display: none;
+            background-color: orange;
+        }
+
+        .addi {
+            display: block;
+            padding: 15px;
+            font-size: 1rem;
+            font-weight: 800;
+            letter-spacing: 2px;
+
+
+        }
+/* END OF FAQ ...................................................................................................................... */
+
+/* START OF WHO WE ARE  ...................................................................................................................... */
+
+.who_we_are{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.we_are{
+    width: 80%;
+    margin-left: 10%;
+}
+.nanga{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.nanga .side1 , .side2{
+    width: 50%;
+    padding: 1rem;
+}
+.nanga .side1 font{
+    font-size:x-large;
+    font-weight: 400;
+    
+}
+.side2 img{
+    background-size:contain;
+    border-radius: 6px;
+}
+.sk{
+    color: #f95959;
+}
+
+
+@media (max-width:400px){
+    .we_are{
+        width: 100%;
+        margin: 0;
+    }
+    .nanga{
+        display: block;
+    }
+    .nanga .side1,.side2{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .nanga .side2 img{
+        width: 100%;
+        border-radius: 0%;
+        height: 200px;
+    }
+    .nanga .side1 font {
+        font-size: medium;
+        font-weight: 350;
+        line-height: 1.5; /* Improves readability by increasing line spacing */
+        text-align: justify; /* Justifies the text for a cleaner look */
+        color: #333; /* Using a darker color for better contrast */
+        word-wrap: break-word; /* Prevents long words from overflowing */
+
+    }
+    
+}
+
+/* END OF WHO WE ARE  ...................................................................................................................... */
+
+
+
+
+
+/* START OF ABOUT US ...................................................................................................................... */
+
+
+        .parts {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: #063435;
+            margin-top: 7rem;
+        }
+
+        .parts li {
+            list-style: none;
+        }
+
+        .part1 {
+            width: 30%;
+            text-align: center;
+        }
+
+        .part1 img {
+            border-radius: 50%;
+            margin-top: 1rem;
+
+        }
+
+        .part2 {
+            width: 70%;
+        }
+
+        .part2_details {
+            width: 100%;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            /* background-color: orange; */
+
+
+
+        }
+
+        .part2_details .contacts {
+            color: white;
+            /* background-color: red; */
+            margin-top: 1rem;
+        }
+
+        .part2_details .contacts li {
+            margin-top: 1rem;
+
+
+        }
+
+
+        .part2_details .media {
+            color: white;
+            /* background-color: #00f2fe; */
+            margin-top: 1rem;
+
+
+
+        }
+
+        .part2_details .media li {
+            margin-top: 1rem;
+
+
+        }
+
+        .part2_details .links {
+            color: white;
+            margin-top: 1rem;
+
+        }
+
+        .part2_details .links li {
+            margin-top: 1rem;
+
+
+        }
+
+        .copyrights {
+            background-color: #000000;
+            color: white;
+
+        }
+
+        .cr p {
+            display: inline;
+        }
+
+/* END OF ABOUT US ...................................................................................................................... */
+
+
+/* START OF CART  ...................................................................................................................... */
+
+
+
+
+        .cart_contain {
+            margin: 0;
+            padding: 0;
+            border: none;
+            display: block;
+            /* background-color: #00f2fe; */
+        }
+
+
+        .cart_ah_podu {
+            position: fixed;
+            top: 50px;
+            left: -1000PX;
+            width: 400px;
+            height: 600px;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: start;
+            padding: 1rem;
+            z-index: 1;
+            overflow-y: scroll;
+            transition: left 0.5s ease;/
+        }
+
+        .cart_ah_podu .carts::-webkit-scrollbar {
+            display: none;
+        }
+
+        .cart_ah_podu .cart_detail p {
+            margin-top: 0.8rem;
+        }
+
+
+
+        .varum {
+            left: 0;
+        }
+
+
+/* END OF CART  ...................................................................................................................... */
+
+
+
+
+/* START OF ABOUT US  ...................................................................................................................... */
+
+
+
+
+
+
+        @media (max-width:713px) {
+            .parts {
+                flex-direction: column;
+                /* background-color:rebeccapurple; */
+                align-items: center;
+            }
+
+            .part1,
+            .part2 {
+                width: 100%;
+            }
+
+            .part2 li {
+                text-align: center;
+                font-size: 0.9rem;
+            }
+
+        }
+
+/* END OF ABOUT US  ...................................................................................................................... */
+
+
+/* START OF CART   ...................................................................................................................... */
+
+        /* @media (max-width:400px) {
+            .carts {
+                width: 200px;
+                position: fixed;
+                top: 4rem;
+            }
+
+            .carts .cart {
+                margin-top: 1rem;
+
+
+            }
+
+            .carts .cart img {
+                height: 60px;
+                width: 60px;
+            }
+        } */
+
+
+        @media (max-width:400px){
+            .cart_ah_podu{
+               width: 250px;
+
+
+            }
+            .cart_detail{
+                width: 90%;
+            }
+            
+            .cart_detail img{
+                width: 65px;
+            }
+            .cart_contain{
+                background: linear-gradient(to right, #063435, #e3e3e3);
+                display: flex;
+                justify-content: center;
+                align-items: start;
+                margin: 1rem;
+            }
+            .cart_contain .cart{
+                width:40% ;
+                padding: 5px;
+            }
+            .cart img{
+                width: 100%;
+            }
+            .cart_contain .cart_detail{
+                width:40% ;
+                padding: 5px;
+
+            }
+            .cart_contain .cart_detail p{
+                font-size:x-small;
+                font-weight:600 ;
+                margin: 0;
+            }
+            .cart_contain .cart_detail .cd1{
+                margin-bottom: 7px;
+                /* border: 1px solid black; */
+            }
+
+            
+            .cart_contain .trashb{
+                width:20% ;
+                padding: 5px;
+
+            }
+
+            .cart_detail .cd2 input{
+                width: 100%;
+            }
+            .cart_contain .cd2 #go {
+    width: 100% !important;
+
+    
+}
+.cart_total button{
+
+    width: 50%;
+    margin-left: 25%;
+    padding: 4px ;
+font-family: inherit;    
+
+        
+    }
+
+            
+        }
+        
+
+/* END OF CART   ...................................................................................................................... */
+
+
+
+/* START OF NAV BAR......................................................................................................... */
+        @media (max-width: 1050px) {
+
+            .nav_bar{
+                display: flex;
+                justify-content: space-between;
+                align-items:center;
+            }
+
+
+            .details {
+                display: none;
+                width: 100%;
+                text-align: center;
+            }
+
+           
+
+            .nav_bar .brand_name {
+                width: 50%;
+                
+              
+            }
+
+            /* .redirect {
+                display: inline-block;
+                position: absolute;
+                right: 0;
+                top: 8px;
+                width: 40px;
+            } */
+
+            /* .showme {
+                display: block;
+            } */
+        }
+
+/*END OF NAV BAR.....................................................................................  */
+
+
+
+/* START OF BRAND CONTENT......................................................................................................... */
+
+        @media (max-width:438px) {
+            .left {
+                width: 100%;
+                /* background-color: green; */
+            }
+
+            .left div {
+                width: 80%;
+                margin-left: 10%;
+                text-align: center;
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+            }
+
+            .left div h2 {
+                color: #063435;
+                /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7); */
+            }
+
+            .right {
+                background-color: greenyellow;
+                display: none;
+
+            }
+
+
+        }
+
+/* END OF BRAND CONTENT......................................................................................................... */
+
+
+        @media (max-width: 740px) {
+            .form_popup {
+                width: 90%;
+            }
+
+            .form_detail {
+                display: none;
+            }
+
+            .form_content {
+                width: 100%;
+                /* Ensure the form content takes up the full width */
+            }
+
+            .form_content form {
+                width: 100%;
+                /* Set the form width to 100% to ensure it fills the container */
+                margin: 0 auto;
+                /* Center the form within the container */
+                padding: 5px 40px;
+                /* Add some padding if needed */
+            }
+
+            /* Adjust input fields to take full width */
+            .form_content .input_group input {
+                width: 100%;
+                /* Make input fields full width */
+                /* Ensure padding is included within the width */
+            }
+        }
+
+
+/* START OF OUR PRODUCTS......................................................................................................... */
+
+
+        @media (max-width:1077px) {
+
+            .product_img img {
+                width: 300px;
+            }
+
+
+        }
+
+
+
+        @media (max-width:968px) {
+            .product_img img {
+                width: 220px;
+                height: 220px;
+                margin: 20px auto;
+            }
+
+            .new {
+                font-size: 1rem;
+            }
+
+
+        }
+
+
+
+        @media (max-width:839px) {
+            .products {
+                display: block;
+            }
+
+            .pro,
+            .product_img {
+                width: 100%;
+                /* background-color: red; */
+                text-align: center;
+
+
+            }
+
+            .pro {
+                padding: 0%;
+            }
+
+            .pro ul {
+                /* background-color: orange; */
+                padding: 0%;
+
+            }
+
+            .pro ul h3 {
+                border: 1px solid cadetblue;
+                width: 50%;
+                margin-left: 25%;
+                text-align: center;
+            }
+
+            .pro ul h3,
+            p,
+            button {
+                margin-top: 2rem;
+            }
+
+            .pro ul p {
+                font-weight: 350;
+                width: 80%;
+                margin-left: 10%;
+                /* border: 1px solid  black; */
+                text-align: center;
+                font-size: 1.1rem;
+            }
+
+            .pro ul button {
+                background-color: #063435;
+                color: white;
+                width: 50%;
+                margin-left: 25%;
+            }
+            .pro .organic {
+                font-size: 1rem;
+                text-align: start;
+            }
+
+            .organic button {
+                padding: 6px 15px;
+                font-size: 12px;
+            }
+
+            .current font {
+                font-size: 2rem;
+            }
+
+            .more_info {
+                font-size: 1rem;
+                color: #063435;
+            }
+
+
+            .products .product_img img {
+                width: 70%;
+                margin-left: 15%;
+                border-radius: 2px;
+
+            }
+
+            .product_img h2 {
+                /* background-color: rgb(240, 104, 104); */
+                display: block;
+                margin-top: 12px;
+                margin-left: 0;
+
+            }
+
+        }
+
+/* END OF OUR PRODUCTS......................................................................................................... */
+
+/* START OF UPCOMING PRODUCTS......................................................................................................... */
+
+
+        @media (max-width:1240px) {
+            .upc_img {
+                /* background-color: #00f2fe; */
+                text-align: center;
+                /* margin-left: 1rem;
+        margin-right: 30px; */
+            }
+
+
+        }
+
+        @media (max-width:360px) {
+            .upc_img {
+                /* background-color: #00f2fe; */
+                text-align: center;
+                /* margin-left: 1rem;
+        margin-right: 30px; */
+            }
+
+            .upcoming_product_imgs {
+                grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+            }
+
+            .upc_img img {
+                width: 100%;
+                height: 200px;
+                border-radius: 0;
+            }
+
+        }
+
+/* END OF UPCOMING PRODUCTS......................................................................................................... */
+
+/* START OF SUGESSTION PRODUCTS......................................................................................................... */
+
+
+@media (max-width:397px) {
+
+.suggestion {
+    width: 100%;
+}
+
+.suggestion .getting_age input,
+label,
+.giving {
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: green;
+    padding: 13px;
+    border: none;
+    background-color: #063435;
+    color: white;
+    font-weight: 800;
+    margin-top: 1rem;
+
+}
+
+.suggestion .asking h2 {
+
+    font-size: 1rem;
+
+}
+
+.providing {
+    width: 70%;
+    margin-left: 15%;
+    background-color: #000000;
+}
+
+.providing .age_based {
+    width: 90%;
+    margin-left: 5%;
+
+}
+
+.age_based .factors {
+    width: 100%;
+    text-align: center;
+}
+
+.age_based .cxl {
+    width: 100%;
+    /* background-color: red; */
+    padding-left: 80%;
+    margin-bottom: 1rem;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+
+.age_based .factors img {
+    width: 120px;
+    height: 120px;
+    margin-top: 1rem;
+}
+
+
+
+}
+
+/* END OF SUGESSTION PRODUCTS......................................................................................................... */
+
+
+
+/* START OF FAQ ......................................................................................................... */
+
+        @media (max-width:397px) {
+
+            .questions .qanda {
+                width: 100%;
+            }
+
+            .questions .qanda .ws {
+                width: 70%;
+            }
+
+            .questions .qanda .ps {
+                width: 30%;
+                text-align: end;
+            }
+        }
+
+
+  .clrs h1,h2,h3,p{
+    margin-top: 1rem;
+
+
+  }
+
+/* END OF FAQ ......................................................................................................... */
+
+
+
+
